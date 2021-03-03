@@ -35,7 +35,7 @@ function mostrar()
 	contadorTipoLimpiezaDesinfectante = 0;
 	contadorTipoLimpiezaDetergente = 0;
 	for (let contadorVeces = 0; contadorVeces < 5; contadorVeces++) {
-		nombreP = prompt("Ingrese tipo, ALCOHOL/IAC/QUAT").toLowerCase(nombreP);
+		nombreP = prompt("Ingrese tipo, ALCOHOL/IAC/QUAT");
 		while (nombreP != "ALCOHOL" && nombreP != "IAC" && nombreP != "QUAT") {
 			nombreP = prompt("Error, ingrese ALCOHOL/IAC/QUAT");
 		};
@@ -49,7 +49,7 @@ function mostrar()
 		};
 		tipoP = prompt("Ingrese tipo, Bactericida/Desinfectante/Detergente");
 		while (tipoP != "bactericida" && tipoP != "desinfectante" && tipoP != "detergente") {
-			tipoP = prompt("Error, ingrese tipo, Bactericida/Desinfectante/Detergente").toLowerCase(tipoP);
+			tipoP = prompt("Error, ingrese tipo, Bactericida/Desinfectante/Detergente");
 		};
 		marcaP = prompt("Ingrse nombre de la marca");
 	//a)
