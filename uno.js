@@ -47,9 +47,9 @@ function mostrar()
 		while (cantidadP > 1000 || cantidadP <= 0) {
 			cantidadP = parseInt(prompt("ERROR. Cantidad del producto"));
 		};
-		tipoP = prompt("Ingrese tipo, Bactericida/Desinfectante/Detergente");
+		tipoP = prompt("Ingrese tipo, bactericida/desinfectante/detergente");
 		while (tipoP != "bactericida" && tipoP != "desinfectante" && tipoP != "detergente") {
-			tipoP = prompt("Error, ingrese tipo, Bactericida/Desinfectante/Detergente");
+			tipoP = prompt("Error, ingrese tipo, bactericida/desinfectante/detergente");
 		};
 		marcaP = prompt("Ingrse nombre de la marca");
 	//a)
